@@ -1,0 +1,26 @@
+{
+  "name": "lorg",
+  "version": "0.1.0",
+  "description": "Streamable logs",
+  "main": "lib/lorg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schahriar/lorg.git"
+  },
+  "keywords": [
+    "log",
+    "lorg",
+    "stream",
+    "file",
+    "socket"
+  ],
+  "author": "Schahriar SaffarShargh <info@schahriar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schahriar/lorg/issues"
+  },
+  "homepage": "https://github.com/schahriar/lorg#readme"
+}
