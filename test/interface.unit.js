@@ -1,4 +1,4 @@
-const PassThrough = require('stream').PassThrough;
+const { PassThrough, Readable } = require('stream');
 
 function getQuickChunk(item, method, callback) {
   const stream = new PassThrough();
@@ -14,7 +14,7 @@ function getQuickChunk(item, method, callback) {
 
 describe("Lorg interface test suite", function () {
   it("should be a correct instance", function () {
-    expect(lorg).to.be.an.instanceOf(PassThrough);
+    expect(lorg).to.be.an.instanceOf(Readable);
     expect(lorg).to.have.property('log');
     expect(lorg).to.have.property('warn');
     expect(lorg).to.have.property('error');
