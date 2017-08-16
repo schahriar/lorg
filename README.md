@@ -1,6 +1,6 @@
-# Lorg
+# **Lorg** - for all your logging needs
 ----------
-Fast, streamable Object logging made simple.
+Fast, streamable Object logging made simple. Lorg is on average 4 times faster than `console.log` as it buffers and queues logs efficiently in a stream. It also adds additional meta information for better log tracking.
 
 ----------
 
@@ -10,7 +10,7 @@ Install lorg:
 npm install --save lorg
 ```
 
-Create a new instance and pipe it to an output:
+Create a new instance and pipe it to stdout:
 ```javascript
 const Lorg = require('lorg');
 const appLog = new Lorg();
